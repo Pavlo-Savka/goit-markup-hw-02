@@ -23,19 +23,19 @@ font-size: 26px;
 line-height: 1.17;
 }
 
-.logo1half {
+.logo-1half {
     color: var(--accent-color);
 }
 
-.logo2half {
+.logo-2half {
     color: var(--logo2half-color);
 }
 
 .nav-list, 
 .header-contacts, 
 .footer-contacts, 
-.features, 
-.working, 
+.features-list, 
+.working-list, 
 .command-list,
 .button-list {
     list-style-type: none;
@@ -73,9 +73,7 @@ color: var(--accent-color);
 
 .tel,
 .mail,
-.features p,
-.command-list p,
-.project-list p
+.features-text
  {
     color: var(--paragraf-color);
 }
@@ -89,7 +87,7 @@ color: var(--accent-color);
     text-decoration: none;
 }
 
-.section-hero {
+.hero {
     background-color: var(--footer-color);
 }
 
@@ -98,12 +96,14 @@ color: var(--accent-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button {
     color: var(--headline-color);
     background: var(--section-command-color);
-    border: none;
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -121,40 +121,39 @@ color: var(--accent-color);
 display: none;
 }
 
-.features h3 {
+.features-heading {
     text-transform: uppercase;
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
 }
 
-.features p {
-    font-weight: 400;
+.features-text {
     font-size: 14px;
     line-height: 1.7;
 }
 
-.section-working h2, 
-.section-command h2 {
-    font-weight: 700;
+.working-title, 
+.command-title {
     font-size: 36px;
     line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.section-command {
+.command {
     background-color: var(--section-command-color);
 }
 
-.section-command h3 {
+.command-list-name   {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
 }
 
-.section-command p {
-    font-weight: 400;
+.command-prof {
     font-size: 16px;
     line-height: 1.17;
+    color: var(--paragraf-color);
 }
 
 .footer-contacts {
@@ -164,17 +163,16 @@ display: none;
 }
 
 .address-title, 
-.logo2half2 {
+.logo-2half-2 {
     color: var(--main-bgd-color);
 }
 
 .section-footer {
     background-color: var(--footer-color);
 }
-.button-list button {
+.button-list-item {
     color: var(--headline-color);
     background: var(--section-command-color);
-    border: none;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -182,8 +180,8 @@ display: none;
     font-family: inherit;
     }
     
-.button-list button:hover, 
-.button-list button:focus {
+.button-list-item:hover, 
+.button-list-item:focus {
     color: var(--main-bgd-color);
     background: var(--accent-color);
     }
@@ -192,16 +190,17 @@ display: none;
     display: none;
 }
 
-.project-list h2 {
+.project-list-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
 
-.project-list p {
+.project-list-group {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+    color: var(--paragraf-color);
 }
 .footer-contacts {
     font-style: normal;
