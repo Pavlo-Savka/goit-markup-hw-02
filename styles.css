@@ -13,6 +13,7 @@ body {
     color: var(--headline-color);
     background-color: var(--main-color);
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .logo {
@@ -21,7 +22,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
-}
+    }
 
 .logo-1half {
     color: var(--accent-color);
@@ -40,7 +41,8 @@ body {
 .features-list,
 .working-list,
 .command-list,
-.button-list {
+.button-list,
+.project-list {
     list-style-type: none;
 }
 
@@ -49,6 +51,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 
 .mail:hover,
@@ -77,7 +80,7 @@ body {
 
 .tel,
 .mail {
-    color: var(--paragraf-color);
+    color: var(--footer-contacts-color);
 }
 
 .tel,
@@ -111,6 +114,7 @@ body {
     font-size: 16px;
     line-height: 1.88;
     font-family: inherit;
+    letter-spacing: 0.06em;
 
 }
 
@@ -161,9 +165,9 @@ body {
 }
 
 .footer-contacts {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    font-style: normal;
 }
 
 .section-footer {
@@ -194,15 +198,11 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em; 
 }
 
 .project-list-group {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     color: var(--paragraf-color);
-}
-
-.footer-contacts {
-    font-style: normal;
 }
