@@ -54,7 +54,9 @@ body {
     letter-spacing: 0.02em;
 }
 
+.header-contacts .mail:hover,
 .mail:hover,
+.header-contacts .tel:hover,
 .tel:hover,
 .studio-link:hover,
 .portfolio-link:hover,
@@ -63,7 +65,9 @@ body {
     color: var(--accent-color);
 }
 
+.header-contacts .mail:focus,
 .mail:focus,
+.header-contacts .tel:focus,
 .tel:focus,
 .studio-link:focus,
 .portfolio-link:focus,
@@ -76,6 +80,11 @@ body {
 .portfolio-link,
 .cotacts-link {
     color: inherit;
+}
+
+.header-contacts .tel,
+.header-contacts .mail {
+    color: var(--paragraf-color);
 }
 
 .tel,
